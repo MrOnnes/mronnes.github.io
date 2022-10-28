@@ -1,0 +1,112 @@
+{
+  "source": [
+    "output.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "prefix": "adr",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
+      }]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "prefix": "adr",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "flutter-color": {
+      "transformGroup": "flutter-separate",
+            "buildPath": "lib/unique_file/",
+      "files": [
+          {
+              "destination": "style_dictionary_color.dart",
+              "format": "flutter/class.dart",
+              "className": "adrColor",
+              "type": "color",
+              "filter":{
+                "attributes":{
+                  "category": "color"
+                }
+              }
+          }
+      ]
+    },
+
+    "flutter-shape": {
+      "transforms": ["attribute/cti", "name/ti/camel", "size/flutter/remToDouble", "content/flutter/literal", "asset/flutter/literal", "font/flutter/literal","type/borderRadius"],
+            "buildPath": "lib/unique_file/",
+      "files": [
+          {
+              "destination": "style_dictionary_shape.dart",
+              "format": "flutter/class.dart",
+              "className": "adrShape",
+              "type": "shape",
+              "filter":{
+                "attributes":{
+                  "category": "shape"
+                }
+              }
+          }
+      ]
+    },
+    "flutter-typo": {
+      "transforms": [
+        "attribute/cti", "name/ti/camel", "size/flutter/remToDouble", "content/flutter/literal", 
+        "asset/flutter/literal", "font/flutter/literal","type/fontFamilies",
+        "type/TextCase","type/TextDecoration","type/LetterSpacing",
+        "type/FontWeight","type/FontSize"],
+            "buildPath": "lib/unique_file/",
+      "files": [
+          {
+              "destination": "style_dictionary_typo.dart",
+              "format": "flutter/class.dart",
+              "className": "adrTypo",
+              "type": "typo",
+              "filter":{
+                "attributes":{
+                  "category": "typo"
+                }
+              }
+          }
+      ]
+    },
+  
+
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/res/values/",
+      "files": [{
+        "destination": "style_dictionary_colors.xml",
+        "format": "android/colors"
+      },{
+        "destination": "style_dictionary_font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "style_dictionary_dimens.xml",
+        "format": "android/dimens"
+      },{
+        "destination": "style_dictionary_integers.xml",
+        "format": "android/integers"
+     },{
+        "destination": "style_dictionary_strings.xml",
+        "format": "android/strings"
+      }]
+    },
+
+    "android-asset": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/",
+      "files": [{
+        "destination": "assets/data/properties.json",
+        "format": "json"
+      }]
+    }
+  }
+}
