@@ -6,16 +6,19 @@
     "css": {
       "transformGroup": "css",
       "prefix": "adr",
-      "buildPath": "build/css/",
+      "buildPath": "style/css/",
       "files": [{
         "destination": "_variables.css",
-        "format": "css/variables"
+        "format": "css/variables",
+        "options" : {
+          "outputReferences" : true
+        }
       }]
     },
     "scss": {
       "transformGroup": "scss",
       "prefix": "adr",
-      "buildPath": "build/scss/",
+      "buildPath": "style/scss/",
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
