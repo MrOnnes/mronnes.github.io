@@ -1,5 +1,5 @@
 @import url(https://mronnes.github.io/style/variables.css);
 
 body {
-    background-color: var(--adr-color-background-primary);
+    background: var(--adr-color-background-primary);
 }
