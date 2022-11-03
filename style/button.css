@@ -1,0 +1,67 @@
+.bd-example{
+    margin: 0;
+    border: 0;
+    position: relative;
+  }
+  .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: var(--figma-size-button-padding-top-bottom)
+      var(--figma-size-button-padding-right-left);
+    gap: var(--figma-size-button-gap);
+    height: 40px;
+    margin: 8px;
+    border-radius: var(--figma-size-button-radius);
+    border: none;
+  }
+  
+  .btn-primary{
+    background: var(--figma-color-background-button-primary-active);
+    color: var(--figma-color-text-button-primary);
+  }
+  
+  .btn-secondary {
+    background: var(--figma-color-background-button-secondary-active);
+    color: var(--figma-color-text-button-secondary);
+    border: 1px solid var(--figma-color-border-button-link);
+  }
+  
+  .btn-success{
+    background: var(--figma-color-background-success);
+    color: var(--figma-color-text-success);
+  }
+  
+  .btn-danger{
+  background: var(--figma-color-background-button-error-active);
+    color: var(--figma-color-text-white);
+  
+  }
+  
+  .btn-warning{
+  background: var(--figma-color-background-warning);
+    color: var(--figma-color-text-warning);
+  }
+  
+  .btn-info{
+  background: var(--figma-color-background-link);
+    color: var(--figma-color-text-link);
+  }
+  
+  .btn-light{
+  background: var(--figma-color-background-base-light);
+    color: var(--figma-color-text-button-primary);
+  }
+  
+  .btn-dark{
+    background: var(--figma-color-background-base-dark);
+    color: var(--figma-color-text-white);
+  }
+  
+  .btn-link{
+    background: none;
+    color: var(--figma-color-text-button-secondary);
+    border: none;
+    border-radius: var(--figma-size-button-radius);
+  }
