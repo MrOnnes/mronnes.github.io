@@ -385,11 +385,11 @@
       }
     }
   },
-  "shape": {
+  "size": {
     "button": {
       "primary": {
         "radius": {
-          "value": 100,
+          "value": "1600.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -397,15 +397,15 @@
             "value": 100,
             "type": "borderRadius"
           },
-          "name": "shape_button_primary_radius",
+          "name": "size_button_primary_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "button",
             "item": "primary",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "button",
             "primary",
             "radius"
@@ -414,7 +414,7 @@
       },
       "outlined": {
         "radius": {
-          "value": 100,
+          "value": "1600.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -422,15 +422,15 @@
             "value": 100,
             "type": "borderRadius"
           },
-          "name": "shape_button_outlined_radius",
+          "name": "size_button_outlined_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "button",
             "item": "outlined",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "button",
             "outlined",
             "radius"
@@ -439,7 +439,7 @@
       },
       "text": {
         "radius": {
-          "value": 100,
+          "value": "1600.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -447,15 +447,15 @@
             "value": 100,
             "type": "borderRadius"
           },
-          "name": "shape_button_text_radius",
+          "name": "size_button_text_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "button",
             "item": "text",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "button",
             "text",
             "radius"
@@ -463,7 +463,7 @@
         }
       },
       "pad-side": {
-        "value": 24,
+        "value": "384.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -471,20 +471,20 @@
           "value": 24,
           "type": "spacing"
         },
-        "name": "shape_button_pad_side",
+        "name": "size_button_pad_side",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "button",
           "item": "pad-side"
         },
         "path": [
-          "shape",
+          "size",
           "button",
           "pad-side"
         ]
       },
       "pad-top": {
-        "value": 8,
+        "value": "128.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -492,20 +492,20 @@
           "value": 8,
           "type": "spacing"
         },
-        "name": "shape_button_pad_top",
+        "name": "size_button_pad_top",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "button",
           "item": "pad-top"
         },
         "path": [
-          "shape",
+          "size",
           "button",
           "pad-top"
         ]
       },
       "pad-top-variation": {
-        "value": 12,
+        "value": "192.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -513,20 +513,20 @@
           "value": 12,
           "type": "spacing"
         },
-        "name": "shape_button_pad_top_variation",
+        "name": "size_button_pad_top_variation",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "button",
           "item": "pad-top-variation"
         },
         "path": [
-          "shape",
+          "size",
           "button",
           "pad-top-variation"
         ]
       },
       "gap": {
-        "value": 8,
+        "value": "128.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -534,20 +534,20 @@
           "value": 8,
           "type": "spacing"
         },
-        "name": "shape_button_gap",
+        "name": "size_button_gap",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "button",
           "item": "gap"
         },
         "path": [
-          "shape",
+          "size",
           "button",
           "gap"
         ]
       },
       "border": {
-        "value": 2,
+        "value": "32.00dp",
         "type": "borderWidth",
         "filePath": "output.json",
         "isSource": true,
@@ -555,14 +555,14 @@
           "value": 2,
           "type": "borderWidth"
         },
-        "name": "shape_button_border",
+        "name": "size_button_border",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "button",
           "item": "border"
         },
         "path": [
-          "shape",
+          "size",
           "button",
           "border"
         ]
@@ -570,7 +570,7 @@
     },
     "sidebar": {
       "radius": {
-        "value": 12,
+        "value": "192.00dp",
         "type": "borderRadius",
         "filePath": "output.json",
         "isSource": true,
@@ -578,20 +578,20 @@
           "value": 12,
           "type": "borderRadius"
         },
-        "name": "shape_sidebar_radius",
+        "name": "size_sidebar_radius",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "sidebar",
           "item": "radius"
         },
         "path": [
-          "shape",
+          "size",
           "sidebar",
           "radius"
         ]
       },
       "gap": {
-        "value": 8,
+        "value": "128.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -599,20 +599,20 @@
           "value": 8,
           "type": "spacing"
         },
-        "name": "shape_sidebar_gap",
+        "name": "size_sidebar_gap",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "sidebar",
           "item": "gap"
         },
         "path": [
-          "shape",
+          "size",
           "sidebar",
           "gap"
         ]
       },
       "pad-all": {
-        "value": 4,
+        "value": "64.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -620,20 +620,20 @@
           "value": 4,
           "type": "spacing"
         },
-        "name": "shape_sidebar_pad_all",
+        "name": "size_sidebar_pad_all",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "sidebar",
           "item": "pad-all"
         },
         "path": [
-          "shape",
+          "size",
           "sidebar",
           "pad-all"
         ]
       },
       "pad-side": {
-        "value": 16,
+        "value": "256.00dp",
         "type": "spacing",
         "filePath": "output.json",
         "isSource": true,
@@ -641,14 +641,14 @@
           "value": 16,
           "type": "spacing"
         },
-        "name": "shape_sidebar_pad_side",
+        "name": "size_sidebar_pad_side",
         "attributes": {
-          "category": "shape",
+          "category": "size",
           "type": "sidebar",
           "item": "pad-side"
         },
         "path": [
-          "shape",
+          "size",
           "sidebar",
           "pad-side"
         ]
@@ -657,7 +657,7 @@
     "input": {
       "checkbox": {
         "radius": {
-          "value": 4,
+          "value": "64.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -665,15 +665,15 @@
             "value": 4,
             "type": "borderRadius"
           },
-          "name": "shape_input_checkbox_radius",
+          "name": "size_input_checkbox_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "input",
             "item": "checkbox",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "input",
             "checkbox",
             "radius"
@@ -682,7 +682,7 @@
       },
       "chips": {
         "radius": {
-          "value": 4,
+          "value": "64.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -690,15 +690,15 @@
             "value": 4,
             "type": "borderRadius"
           },
-          "name": "shape_input_chips_radius",
+          "name": "size_input_chips_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "input",
             "item": "chips",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "input",
             "chips",
             "radius"
@@ -707,7 +707,7 @@
       },
       "field": {
         "radius": {
-          "value": 4,
+          "value": "64.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -715,15 +715,15 @@
             "value": 4,
             "type": "borderRadius"
           },
-          "name": "shape_input_field_radius",
+          "name": "size_input_field_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "input",
             "item": "field",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "input",
             "field",
             "radius"
@@ -734,7 +734,7 @@
     "display": {
       "cards": {
         "radius": {
-          "value": 12,
+          "value": "192.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -742,15 +742,15 @@
             "value": 12,
             "type": "borderRadius"
           },
-          "name": "shape_display_cards_radius",
+          "name": "size_display_cards_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "display",
             "item": "cards",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "display",
             "cards",
             "radius"
@@ -759,7 +759,7 @@
       },
       "dialogs": {
         "radius": {
-          "value": 28,
+          "value": "448.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -767,15 +767,15 @@
             "value": 28,
             "type": "borderRadius"
           },
-          "name": "shape_display_dialogs_radius",
+          "name": "size_display_dialogs_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "display",
             "item": "dialogs",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "display",
             "dialogs",
             "radius"
@@ -784,7 +784,7 @@
       },
       "tabs": {
         "radius": {
-          "value": 8,
+          "value": "128.00dp",
           "type": "borderRadius",
           "filePath": "output.json",
           "isSource": true,
@@ -792,20 +792,259 @@
             "value": 8,
             "type": "borderRadius"
           },
-          "name": "shape_display_tabs_radius",
+          "name": "size_display_tabs_radius",
           "attributes": {
-            "category": "shape",
+            "category": "size",
             "type": "display",
             "item": "tabs",
             "subitem": "radius"
           },
           "path": [
-            "shape",
+            "size",
             "display",
             "tabs",
             "radius"
           ]
         }
+      }
+    },
+    "fontSize": {
+      "12": {
+        "value": "192.00dp",
+        "type": "fontSizes",
+        "description": "12",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 12,
+          "type": "fontSizes",
+          "description": "12"
+        },
+        "name": "size_font_size_12",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "12"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "12"
+        ]
+      },
+      "14": {
+        "value": "224.00dp",
+        "type": "fontSizes",
+        "description": "14",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 14,
+          "type": "fontSizes",
+          "description": "14"
+        },
+        "name": "size_font_size_14",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "14"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "14"
+        ]
+      },
+      "16": {
+        "value": "256.00dp",
+        "type": "fontSizes",
+        "description": "16",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 16,
+          "type": "fontSizes",
+          "description": "16"
+        },
+        "name": "size_font_size_16",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "16"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "16"
+        ]
+      },
+      "18": {
+        "value": "288.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 18,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_18",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "18"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "18"
+        ]
+      },
+      "20": {
+        "value": "320.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 20,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_20",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "20"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "20"
+        ]
+      },
+      "24": {
+        "value": "384.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 24,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_24",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "24"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "24"
+        ]
+      },
+      "30": {
+        "value": "480.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 30,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_30",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "30"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "30"
+        ]
+      },
+      "36": {
+        "value": "576.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 36,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_36",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "36"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "36"
+        ]
+      },
+      "48": {
+        "value": "768.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 48,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_48",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "48"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "48"
+        ]
+      },
+      "60": {
+        "value": "960.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 60,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_60",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "60"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "60"
+        ]
+      },
+      "72": {
+        "value": "1152.00dp",
+        "type": "fontSizes",
+        "filePath": "output.json",
+        "isSource": true,
+        "original": {
+          "value": 72,
+          "type": "fontSizes"
+        },
+        "name": "size_font_size_72",
+        "attributes": {
+          "category": "size",
+          "type": "fontSize",
+          "item": "72"
+        },
+        "path": [
+          "size",
+          "fontSize",
+          "72"
+        ]
       }
     }
   },

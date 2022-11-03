@@ -7,6 +7,30 @@ console.log('\n==============================================');
 // REGISTER THE CUSTOM TRANFORMS
 
 StyleDictionary.registerTransform({
+  name: "size/pxToRem",
+  type: "value",
+  transitive: true,
+  matcher: (token) => token.attributes.category ==='size',
+  transformer: function(token){
+    const val = parseFloat(token.value);
+      if (isNaN(val)) throwSizeError(token.name, token.value, 'rem');
+      return (val / 16) + 'rem';
+  },
+});
+
+StyleDictionary.registerTransform({
+  name: "type/FontSizeRem",
+  type: "value",
+  transitive: true,
+  matcher: (token) => token.type === "fontSize",
+  transformer: function(token){
+    const val = parseFloat(token.value);
+      if (isNaN(val)) throwSizeError(token.name, token.value, 'rem');
+      return (val/16) + 'rem';
+  },
+});
+
+StyleDictionary.registerTransform({
     name: "type/fontFamilies",
     type: "value",
     transitive: true,
